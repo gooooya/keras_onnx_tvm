@@ -1,0 +1,14 @@
+notebook
+onnx
+scipy
+numpy
+scikit-learn
+pandas
+seaborn
+torch
+torchvision
+onnxruntime
+onnx2pytorch
+tensorflow
+tf2onnx
+mlflow

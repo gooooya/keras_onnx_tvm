@@ -1,0 +1,11 @@
+# 基本イメージ
+FROM python:3.8
+
+# MLflowをインストール
+RUN pip install mlflow
+
+# ポート5000を開放
+EXPOSE 5000
+
+# MLflowサーバーを起動
+CMD ["mlflow", "server", "--host", "0.0.0.0"]
